@@ -1,0 +1,53 @@
+.form input{
+  border: 2px solid grey;
+  padding: 10px 12px;
+  outline: none;
+  margin-bottom: 15px;
+   width: 200px;
+}
+.form input:first-child{
+  margin-top: 25px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form button{
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: large;
+  cursor: progress;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonContainer button:last-child{
+  margin-left: 10px;
+  background-color: rgba(243, 21, 21, 0.769);
+
+}
+table,tr,td,th{
+  border: 2px solid rgba(204, 188, 188, 0.785);
+  border-collapse: collapse;
+  padding: 15px;
+}
+.dataTable{
+  margin: 30px;
+}
+table button{
+  border: none;
+  outline: none;
+  background:yellow ;
+  padding: 10px 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+table button:last-child{
+  background: red;
+}
